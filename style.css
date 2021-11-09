@@ -55,6 +55,11 @@ body {
     font-weight: lighter;
 }
 
+.menu ul li a:hover {
+    color: #fff;
+    transition: all 0.2s ease-in;
+}
+
 ul li:nth-child(5) a {
     border: #3aff8c 1px solid;
     padding: 7px 20px;
@@ -62,6 +67,16 @@ ul li:nth-child(5) a {
     color: #000;
     font-weight: bold;
     border-radius: 5px;
+}
+
+ul li:nth-child(5) a:hover {
+
+    background: #1f884b;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ease-in;
 }
 
 .header {
